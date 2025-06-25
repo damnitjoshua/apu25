@@ -10,7 +10,7 @@ from markdownify import markdownify
 from requests.exceptions import RequestException
 from smolagents import tool
 
-GEMINI_API_KEY = "AIzaSyAf8HxoCsImAlgliS43dTaixkIbC6mgR7o"
+GEMINI_API_KEY = ""
 
 @tool
 def visit_webpage(url: str) -> str:
